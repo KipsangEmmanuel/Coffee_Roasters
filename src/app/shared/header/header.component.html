@@ -1,0 +1,28 @@
+<div class="header" role="header">
+    <div>
+      <img src="../../../assets/home/logo.svg" alt="Logo Coffeeroasters" class="logo" routerLink="">
+      <span class="example-spacer"></span>
+      <div class="menu_desktop">
+        <button mat-button aria-label="Home" routerLink="">HOME</button>
+        <button mat-button aria-label="About Us" routerLink="/about">ABOUT US</button>
+        <button mat-button aria-label="Create your plan" routerLink="/subscribe">CREATE YOUR PLAN</button>
+      </div>
+      <div class="menu_mobile">
+        <button mat-icon-button aria-label="Example icon-button with a menu">
+          <h1>menu</h1>
+        </button>
+        <div *ngIf="" class="mobile-menu">
+          <button mat-menu-item routerLink="">
+            <span>HOME</span>
+          </button>
+          <button mat-menu-item routerLink="/about">
+            <span>ABOUT US</span>
+          </button>
+          <button mat-menu-item routerLink="/subscribe">
+            <span>CREATE YOUR PLAN</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  

@@ -1,0 +1,62 @@
+.header {
+    background-color: #FEFCF7;
+    width: 1280px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; /* Added padding for better spacing */
+  }
+  
+  .header .logo {
+    cursor: pointer;
+  }
+  
+  .header .buttons-container {
+    display: flex;
+    gap: 20px; /* Adjust the gap between buttons */
+  }
+  
+  .header button {
+    --mat-mdc-button-persistent-ripple-color: rgba(0, 0, 0, 0);
+    font-family: Barlow;
+    font-size: 14px; /* Increased font size for better readability */
+    font-weight: 700;
+    line-height: 1.5; /* Adjusted line-height for better spacing */
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+    color: #83888F;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .header button:hover {
+    color: black;
+  }
+  
+  .header .menu_mobile {
+    display: none;
+  }
+  
+  @media (max-width: 520px) {
+    .header .menu_desktop {
+      display: none;
+    }
+  
+    .header .menu_mobile {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .header .menu_mobile button {
+      font-family: Barlow;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 1.5;
+    }
+  }
+  

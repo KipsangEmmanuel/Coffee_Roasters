@@ -9,6 +9,8 @@ import { SubscribeComponent } from './pages/subscribe/subscribe.component';
 import { BannerComponent } from './shared/banner/banner.component';
 import { ButtonPlanComponent } from './shared/button-plan/button-plan.component';
 import { ContainerComponent } from './shared/container/container.component';
+import { FooterComponent } from './shared/footer/footer.component';
+import { HeaderComponent } from './shared/header/header.component';
 
 @NgModule({
   declarations: [
@@ -18,11 +20,13 @@ import { ContainerComponent } from './shared/container/container.component';
     SubscribeComponent,
     BannerComponent,
     ButtonPlanComponent,
-    ContainerComponent
+    ContainerComponent,
+    FooterComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
