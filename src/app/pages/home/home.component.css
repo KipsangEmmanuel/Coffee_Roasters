@@ -1,0 +1,482 @@
+.wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .coffees {
+    margin: 0;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, rgba(254, 252, 247, 0.00) 0%, #FEFCF7 100%);
+    color: #83888F;
+    text-align: center;
+    font-family: Fraunces;
+    font-size: 150px;
+    font-style: normal;
+    font-weight: 900;
+    -webkit-mask-image: linear-gradient(0deg, rgba(254, 252, 247, 0.00) 0%, #FEFCF7 100%);
+    mask-image: linear-gradient(0deg, rgba(254, 252, 247, 0.00) 0%, #FEFCF7 100%);
+    position: relative;
+    z-index: -1;
+    margin: 150px auto;
+  }
+  
+  .wrapper_products {
+    max-width: 1111px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-shrink: 0;
+    margin: -245px auto;
+    margin-bottom: 100px;
+    position: relative;
+    flex: 1;
+  }
+  
+  .products {
+    margin-bottom: 100px;
+    width: 255px;
+  }
+  
+  .products img {
+    width: 255px;
+    height: 193px;
+    flex-shrink: 0;
+  }
+  
+  .products h3 {
+    color: #333D4B;
+    text-align: center;
+    font-family: Fraunces;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+  }
+  
+  .products p {
+    color: #333D4B;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  
+  .wrapper_information {
+    max-width: 1280px;
+    height: 728px;
+    flex-shrink: 0;
+    position: relative;
+  }
+  
+  .information_background {
+    width: 1280px;
+    height: 577px;
+    max-width: 100%;
+    flex-shrink: 0;
+    background-color: #2C343E;
+    border-radius: 20px;
+  }
+  
+  .information_background h3 {
+    padding-top: 115px;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: Fraunces;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px;
+  }
+  
+  .information_background p {
+    color: #FEFCF7;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.8;
+  }
+  
+  .wrapper_cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1110px;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 0 auto;
+    margin-top: -350px;
+    position: relative;
+    z-index: 50;
+  }
+  
+  .card {
+    display: flex;
+    flex-wrap: 1;
+    flex-direction: column;
+    background-color: #0E8784;
+    justify-content: center;
+    width: 350px;
+    height: 382px;
+    flex-shrink: 0;
+    align-items: center;
+  }
+  
+  .card img {
+    width: 72px;
+    height: 72px;
+    flex-shrink: 0;
+  }
+  
+  .card h4 {
+    width: 255px;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: Fraunces;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+  }
+  
+  .card p {
+    width: 255px;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  
+  .card .truck {
+    height: 50px;
+  }
+  
+  .information {
+    margin-top: 200px;
+    margin-left: 75px;
+    margin-bottom: 80px;
+    width: 255px;
+    color: #83888F;
+    font-family: Fraunces;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+  }
+  
+  .wrapper_infos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1115px;
+    max-width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 80px;
+    margin: 0 auto;
+    z-index: 50;
+    margin-bottom: 50px;
+  }
+  
+  .info {
+    width: 285px;
+  }
+  
+  .info .top {
+    display: flex;
+    align-items: center;
+  }
+  
+  .info h2 {
+    color: #FDD6BA;
+    font-family: Fraunces;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px;
+  }
+  
+  .info h3 {
+    width: 285px;
+    color: #333D4B;
+    font-family: Fraunces;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px;
+  }
+  
+  .info h4 {
+    width: 285px;
+    color: #333D4B;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  
+  .but {
+    margin-left: 75px;
+    margin-bottom: 200px;
+  }
+  
+  @media (max-width: 768px) {
+    .wrapper {
+      max-width: 768px;
+    }
+  
+    .coffees {
+      text-align: center;
+      font-size: 96px;
+      line-height: 72px;
+    }
+  
+    .wrapper_products {
+      max-width: 689px;
+      display: flex;
+      flex-direction: column;
+      margin: -170px auto;
+      margin-bottom: 80px;
+    }
+  
+    .products {
+      max-width: 573px;
+      display: flex;
+    }
+  
+    .products_text {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: left;
+    }
+  
+    .wrapper_information {
+      width: 688px;
+      max-width: 100%;
+      height: 573px;
+      margin: 0 auto;
+    }
+  
+    .information_background {
+      width: 688px;
+      max-width: 100%;
+      height: 573px;
+    }
+  
+    .wrapper_cards {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      width: 688px;
+      max-width: 100%;
+      margin: -150px auto;
+    }
+  
+    .card {
+      width: 573px;
+      height: 180px;
+      max-width: 100%;
+      display: flex;
+      flex-direction: row;
+      gap: 24px;
+    }
+  
+    .card img {
+      margin-left: 28px;
+    }
+  
+    .card_text {
+      max-width: 60%;
+    }
+  
+    .card_text h4 {
+      max-width: 100%;
+      font-size: 24px;
+      line-height: 32px;
+      margin-bottom: 0;
+      text-align: left;
+    }
+  
+    .card_text p {
+      max-width: 100%;
+      width: 344px;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: left;
+    }
+  
+    .wrapper_infos {
+      width: 689px;
+      max-width: 100%;
+      gap: 0;
+      margin-bottom: 15px;
+    }
+  
+    .info {
+      width: 223px;
+    }
+  
+    .info h3 {
+      width: 223px;
+    }
+  
+    .info h4 {
+      width: 200px;
+      font-size: 15px;
+      font-style: normal;
+      line-height: 25px;
+    }
+  
+    .but {
+      margin-left: 39px;
+    }
+  }
+  
+  @media (max-width: 638px) {
+    .wrapper .wrapper_products .products {
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+    }
+  
+    .wrapper .wrapper_products .products .products_text {
+      width: 282px;
+      margin: 0 auto;
+      align-items: center;
+    }
+  
+    .wrapper .wrapper_products .products .products_text p {
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 376px) {
+    .wrapper {
+      width: 375px;
+      max-width: 100%;
+    }
+  
+    .coffees {
+      width: 375px;
+      max-width: 100%;
+      font-size: 40px;
+      line-height: 72px;
+    }
+  
+    .wrapper_products {
+      width: 375px;
+      max-width: 100%;
+    }
+  
+    .wrapper_products .products {
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+    }
+  
+    .wrapper_products .products .products_text {
+      width: 282px;
+      margin: 0 auto;
+      align-items: center;
+    }
+  
+    .wrapper_products .products .products_text p {
+      text-align: center;
+    }
+  
+    .wrapper_information .information_background {
+      height: 902px;
+    }
+  
+    .wrapper_information .information_background p {
+      width: 282px;
+      text-align: center;
+      margin: 0 auto;
+    }
+  
+    .wrapper_cards {
+      width: 279px;
+    }
+  
+    .wrapper_cards .card {
+      width: 279px;
+      height: 382px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .wrapper_cards .card img {
+      margin: 0;
+    }
+  
+    .wrapper_cards .card .card_text h4 {
+      text-align: center;
+    }
+  
+    .wrapper_cards .card .card_text p {
+      text-align: center;
+    }
+  
+    .information {
+      align-items: center;
+      justify-content: center;
+      margin-left: 50px;
+    }
+  
+    .information .title_information {
+      margin: 0;
+    }
+  
+    .wrapper_infos {
+      max-width: 375px;
+    }
+  
+    .wrapper_infos .info {
+      width: 327px;
+      text-align: center;
+    }
+  
+    .wrapper_infos .info h2 {
+      text-align: center;
+    }
+  
+    .wrapper_infos .info h3 {
+      width: 300px;
+      text-align: center;
+    }
+  
+    .wrapper_infos .info h4 {
+      width: 300px;
+      text-align: center;
+    }
+  
+    .but {
+      width: 375px;
+      margin: 50px auto;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .but button {
+      margin: 0 auto;
+    }
+  }
+  
