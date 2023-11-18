@@ -1,0 +1,482 @@
+/* .banner {
+    margin: 0 auto;
+    width: 1280px;
+    height: 450px;
+    max-width: 100%;
+    flex-shrink: 0 1;
+    border-radius: 25px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('../../../assets/subscribe/image-hero-blackcup.jpg');
+    margin-bottom: 200px;
+  }
+  
+  .banner .title {
+    color: #FEFCF7;
+    font-family: Fraunces;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px;
+    margin-left: 58px;
+  }
+  
+  .banner .banner_text {
+    width: 445px;
+    color: #FEFCF7;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.8;
+    margin-left: 58px;
+  }
+  
+  .box1 {
+    max-width: 100%;
+    width: 1280px;
+    background-color: #2C343E;
+  }
+  
+  .box1 .wrapper_infos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1115px;
+    max-width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0px;
+    margin: 0 auto;
+    z-index: 50;
+    margin-bottom: 50px;
+  }
+  
+  .box1 .info {
+    width: 350px;
+  }
+  
+  .box1 .info .top {
+    margin-top: 113px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .box1 .info h2 {
+    color: #FDD6BA;
+    font-family: Fraunces;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px;
+  }
+  
+  .box1 .info h3 {
+    width: 255px;
+    color: #FEFCF7;
+    font-family: Fraunces;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px;
+  }
+  
+  .box1 .info h4 {
+    width: 285px;
+    color: #FEFCF7;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 113px;
+  }
+  
+  .box2 {
+    display: flex;
+  }
+  
+  .box2 .container_left .item {
+    display: flex;
+    align-items: center;
+    gap: 28.5px;
+  }
+  
+  .box2 .container_left h3 {
+    color: #0E8784;
+    font-family: Fraunces;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+  }
+  
+  .box2 .container_left h2 {
+    color: #333D4B;
+    font-family: Fraunces;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+  }
+  
+  .box2 .container_left .line {
+    width: 255px;
+    height: 1px;
+    flex-shrink: 0;
+    opacity: 0.25;
+    background: #83888F;
+  }
+  
+  .box3 {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 150px;
+  }
+  
+  .box3 .container_box3 {
+    display: flex;
+    flex-direction: column;
+    width: 730px;
+    height: 208px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #2C343E;
+    margin-bottom: 50px;
+  }
+  
+  .box3 .container_box3 .box3_title {
+    margin-left: 64px;
+    margin-top: 51px;
+    width: 172px;
+    color: #FFF;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+    opacity: 0.5037;
+  }
+  
+  .box3 .container_box3 .box3_text {
+    margin-left: 64px;
+    width: 602px;
+    color: #FFF;
+    font-family: Fraunces 9pt;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px;
+  }
+  
+  .box3 .container_box3 .box3_text strong {
+    color: #0E8784;
+    font-family: Fraunces 9pt;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px;
+  }
+  
+  .but {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .mat-mdc-unelevated-button.mat-unthemed {
+    --mdc-filled-button-container-color: #0E8784;
+    --mdc-filled-button-label-text-color: #FEFCF7;
+    width: 217px;
+    height: 56px;
+    flex-shrink: 0;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: Fraunces;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px;
+  }
+  
+  .mat-mdc-unelevated-button.mat-unthemed:hover {
+    --mdc-filled-button-container-color: #66D2CF;
+    --mdc-filled-button-label-text-color: #FEFCF7;
+  }
+  
+  .container_right {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+  }
+  
+  .container_right .mat-expansion-panel {
+    margin-left: 165px;
+    width: 800px;
+    max-width: 100%;
+    background-color: #FEFCF7 !important;
+    font-family: Fraunces;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px;
+    --mat-expansion-header-text-color: #83888F;
+    --mat-expansion-container-background-color: #FEFCF7;
+  }
+  
+  .container_right .mat-expansion-panel-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container_right .mat-expansion-panel-header.mat-expanded {
+    background: #FEFCF7;
+  }
+  
+  .container_right .mat-expansion-panel-header.mat-expanded:hover {
+    background: #FEFCF7;
+  }
+  
+  .container_right .mat-icon {
+    color: #0E8784;
+    margin: auto 0;
+  }
+  
+  .container_right .container {
+    --mat-standard-button-toggle-text-color: #333D4B;
+    --mat-standard-button-toggle-background-color: #F4F1EB;
+    --mat-standard-button-toggle-divider-color: none;
+    --mat-standard-button-toggle-selected-state-background-color: #0E8784;
+    --mat-standard-button-toggle-selected-state-text-color: #ffffff;
+  }
+  
+  .container_right mat-button-toggle-group:hover {
+    background-color: #FDD6BA;
+  }
+  
+  .container_right mat-button-toggle {
+    margin-right: 28px;
+    width: 228px;
+    height: 250px;
+    color: #333D4B;
+    font-family: Fraunces;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+  }
+  
+  .container_right mat-button-toggle:hover {
+    background-color: transparent;
+  }
+  
+  .container_right .container mat-button-toggle .vala {
+    width: 228px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-top: 25px;
+  }
+  
+  .container_right .container mat-button-toggle .vala h2 {
+    text-align: start;
+    color: #333D4B;
+    font-family: Fraunces;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+  }
+  
+  .container_right .container mat-button-toggle .vala p {
+    text-wrap: wrap;
+    text-align: left;
+    width: 172px;
+    color: #333D4B;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+  }
+
+  @media (max-width: 1300px) {
+    .box2 .container_left {
+      display: none;
+    }
+  
+    .box2 .container_right .mat-expansion-panel {
+      width: 730px;
+      margin: 0 auto;
+    }
+  
+    .box2 .container_right mat-button-toggle {
+      width: 200px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .banner {
+      background-image: url('../../../assets/subscribe/tablet/image-hero-blackcup.jpg');
+      background-repeat: no-repeat;
+      background-size: 689px 450px;
+    }
+  
+    .banner p {
+      width: 398px;
+      max-width: 80%;
+    }
+  
+    .box1 {
+      border-radius: 8px;
+      max-width: 100%;
+    }
+  
+    .box1 .wrapper_infos {
+      max-width: 100%;
+    }
+  
+    .box1 .info {
+      width: 223px;
+      max-width: 100%;
+      flex-shrink: 0;
+    }
+  
+    .box1 .info .top {
+      margin-top: 80px;
+    }
+  
+    .box1 .info h2 {
+      max-width: 100%;
+      font-size: 9.37vw;
+      line-height: 72px;
+    }
+  
+    .box1 .info h3 {
+      max-width: 100%;
+      width: 223px;
+      font-size: 3.64vw;
+      line-height: 32px;
+    }
+  
+    .box1 .info h4 {
+      max-width: 100%;
+      width: 200px;
+      color: #FFF;
+      font-family: Barlow;
+      font-size: 2vw;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 25px;
+    }
+  
+    .box2 .container_right {
+      width: 689px;
+      max-width: 100%;
+    }
+  
+    .box2 .container_right .mat-expansion-panel {
+      width: 689px;
+      max-width: 100%;
+      margin: 0 auto;
+      font-size: 3vw;
+    }
+  
+    .box2 .container_right .mat-expansion-panel .container {
+      width: 689px;
+      max-width: 100%;
+    }
+  
+    .box2 .container_right .mat-expansion-panel .container .button_toggle_group {
+      width: 689px;
+      max-width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+  
+    .box2 .container_right .mat-expansion-panel .container .button_toggle_group mat-button-toggle {
+      width: 180px;
+      max-width: 100%;
+    }
+  
+    .box2 .container_right .mat-expansion-panel .container .button_toggle_group mat-button-toggle .vala {
+      width: 170px;
+      max-width: 100%;
+      text-wrap: wrap;
+      margin-left: 5px;
+    }
+  }
+  
+  @media (max-width: 376px) {
+    .banner {
+      background-image: url('../../../assets/subscribe/mobile/image-hero-blackcup.jpg');
+      background-repeat: no-repeat;
+      background-size: 364px 453px;
+    }
+  
+    .banner .title {
+      text-align: center;
+      font-size: 40px;
+      line-height: 40px;
+      margin: 0;
+      margin-bottom: 22px;
+    }
+  
+    .banner .banner_text {
+      text-align: center;
+      font-size: 15px;
+      line-height: 25px;
+      margin: 0 auto;
+    }
+  
+    .box1 {
+
+    }
+  
+    .box2 .container_right {
+      width: 327px;
+      max-width: 100%;
+    }
+  
+    .box2 .container_right .mat-expansion-panel {
+      width: 327px;
+      max-width: 100%;
+      margin: 0 auto;
+      font-size: 18px;
+      line-height: 28px;
+    }
+  
+    .box2 .container_right .mat-expansion-panel .container {
+      width: 327px;
+      max-width: 100%;
+    }
+  
+    .box2 .container_right .mat-expansion-panel .container .button_toggle_group {
+      width: 327px;
+      max-width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+  
+    .box2 .container_right .mat-expansion-panel .container .button_toggle_group mat-button-toggle {
+      width: 327px;
+      max-width: 100%;
+      height: 140px;
+    }
+  
+    .box2 .container_right .mat-expansion-panel .container .button_toggle_group mat-button-toggle .vala {
+      width: 260px;
+      max-width: 100%;
+      text-wrap: wrap;
+      height: 140px;
+      margin-left: 5px;
+    }
+  }
+  
+   */

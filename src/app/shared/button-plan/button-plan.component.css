@@ -1,4 +1,4 @@
-.mat-mdc-unelevated-button.mat-unthemed {
+.Create-plan {
     --mdc-filled-button-container-color: #0E8784;
     --mdc-filled-button-label-text-color: #FEFCF7;
     width: 217px;
@@ -11,9 +11,11 @@
     font-style: normal;
     font-weight: 900;
     line-height: 25px;
+    background-color: #66D2CF;
+    border-radius: 8px;
   }
   
-  .mat-mdc-unelevated-button.mat-unthemed:hover {
+  .Create-plan:hover {
     --mdc-filled-button-container-color: #66D2CF;
     --mdc-filled-button-label-text-color: #FEFCF7;
   }
